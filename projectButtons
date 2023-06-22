@@ -1,0 +1,13 @@
+{
+  /* <Link href="/vgamestore">
+  <button className="text-xl underline rounded-md bg-gradient-to-r from-pink-500 to-violet-500 text-black px-4 py-2 hover:from-pink-700 hover:to-violet-700">
+    <strong>Video Game Store</strong>
+  </button>
+</Link>;
+
+<Link href="https://vgamestore.vercel.app/">
+  <button className="rounded-md bg-gradient-to-r from-pink-500 to-violet-500 text-black px-4 py-2 hover:from-pink-700 hover:to-violet-700">
+    Website
+  </button>
+</Link>; */
+}
