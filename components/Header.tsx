@@ -6,18 +6,22 @@ type Props = {};
 function Header({}: Props) {
   return (
     <header>
-      <div className="flex justify-between p-4">
-        <div className="flex items-center">
+      <div className="flex justify-between p-4 sm:p-10">
+        <div className="flex items-center space-x-4 uppercase">
           <Link
-            href="/projects"
-            className="text-xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+            href="/about"
+            className="text-xl bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent"
           >
-            Projects
+            About me
           </Link>
         </div>
         <div className="space-x-1">
           <SocialIcon url="https://github.com/AliCo-Hash" />
-          <SocialIcon network="email" className="cursor-pointer" />
+          <SocialIcon
+            network="email"
+            url="mailto:example@example.com"
+            className="cursor-pointer"
+          />
         </div>
       </div>
     </header>
