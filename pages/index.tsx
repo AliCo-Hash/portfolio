@@ -49,11 +49,9 @@ export default function Home() {
         <h1 className="text-3xl">Projects</h1>
         <div className="text-center space-y-8 sm:space-y-20">
           <div id="vgamestore">
-            <Link href="/vgamestore">
-              <button className="text-xl underline rounded-md bg-gradient-to-r from-pink-500 to-violet-500 text-black px-4 py-2 hover:from-pink-700 hover:to-violet-700">
-                <strong>Video Game Store</strong>
-              </button>
-            </Link>
+            <h1 className="text-xl underline rounded-md">
+              <strong>Video Game Store</strong>
+            </h1>
             <p className="text-sm mt-2">
               An e-commerce store which sells PC games. Built using Next.js.
             </p>
@@ -83,14 +81,9 @@ export default function Home() {
             </div>
           </div>
           <div id="escaperoom">
-            <Link
-              href="/escaperoom"
-              className="text-xl bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent"
-            >
-              <button className="text-xl underline  rounded-md bg-gradient-to-r from-pink-500 to-violet-500 text-black px-4 py-2 hover:from-pink-700 hover:to-violet-700">
-                <strong>Get Me Out Of Here!</strong>
-              </button>
-            </Link>
+            <h1 className="text-xl underline rounded-md">
+              <strong>Get Me Out Of Here!</strong>
+            </h1>
             <div className="flex justify-center mt-2">
               <div className="max-w-xl">
                 <p className="text-center">

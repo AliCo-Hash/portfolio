@@ -9,6 +9,12 @@ function Header({}: Props) {
       <div className="flex justify-between p-4 sm:p-10">
         <div className="flex items-center space-x-4 uppercase">
           <Link
+            href="/"
+            className="text-xl bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent"
+          >
+            Portfolio
+          </Link>
+          <Link
             href="/about"
             className="text-xl bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent"
           >
