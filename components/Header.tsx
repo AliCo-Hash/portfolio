@@ -25,7 +25,7 @@ function Header({}: Props) {
           <SocialIcon url="https://github.com/AliCo-Hash" />
           <SocialIcon
             network="email"
-            url="mailto:ali.cocelli@outlook.co.uk"
+            url="mailto:ali.cocelli@outlook.com"
             className="cursor-pointer"
           />
         </div>
