@@ -20,11 +20,11 @@ export default function About() {
         <div className="flex flex-col items-center space-y-4 mt-8">
           <div className="max-w-2xl">
             <p>
-              Hey there! I&apos;m Ali Cocelli, a career changer who recently
-              made the exciting leap from the optical industry to pursue my true
-              passion as a software developer. I&apos;ve embarked on an
-              incredible journey of self-discovery and skill-building, driven by
-              my love for coding and problem-solving.
+              Hey there! I&apos;m Ali Cocelli, a career changer who made the
+              exciting leap from the optical industry to pursue my true passion
+              as a software developer. I&apos;ve embarked on an incredible
+              journey of self-discovery and skill-building, driven by my love
+              for coding and problem-solving.
             </p>
             <br />
             <p>

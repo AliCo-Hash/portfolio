@@ -49,8 +49,10 @@ export default function Home() {
         <h1 className="text-3xl">Projects</h1>
         <div className="text-center space-y-8 sm:space-y-20">
           <div id="vgamestore">
-            <h1 className="text-xl underline rounded-md">
-              <strong>Video Game Store</strong>
+            <h1 className="text-xl underline rounded-md hover:text-violet-700">
+              <Link href="https://vgamestore.vercel.app/">
+                <strong>Video Game Store</strong>
+              </Link>
             </h1>
             <p className="text-sm mt-2">
               An e-commerce store which sells PC games. Built using Next.js.
@@ -81,8 +83,10 @@ export default function Home() {
             </div>
           </div>
           <div id="escaperoom">
-            <h1 className="text-xl underline rounded-md">
-              <strong>Get Me Out Of Here!</strong>
+            <h1 className="text-xl underline rounded-md hover:text-violet-700">
+              <Link href="https://escape-room-snowy.vercel.app/">
+                <strong>Get Me Out Of Here!</strong>
+              </Link>
             </h1>
             <div className="flex justify-center mt-2">
               <div className="max-w-xl">
